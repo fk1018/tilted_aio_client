@@ -1,5 +1,5 @@
-import { IState, IProxy, IAction } from '../../interfaces';
-import { UPDATE_PROXIES, SAVE_DATA } from '../../strings';
+import { IState, IProxy, IAction } from '../../../../tilted_aio_shared/interfaces';
+import { UPDATE_PROXIES, SAVE_DATA } from '../../../../tilted_aio_shared/strings';
 import { ipcRenderer } from 'electron';
 
 export const updateProxy = (dispatch: any, state: IState, proxy: IProxy): void => {

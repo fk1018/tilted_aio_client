@@ -1,5 +1,5 @@
-import { IState, IAction, ICreditCardGroup } from '../../interfaces';
-import { UPDATE_CREDIT_CARD_GROUPS, SAVE_DATA } from '../../strings';
+import { IState, IAction, ICreditCardGroup } from '../../../../tilted_aio_shared/interfaces';
+import { UPDATE_CREDIT_CARD_GROUPS, SAVE_DATA } from '../../../../tilted_aio_shared/strings';
 import { ipcRenderer } from 'electron';
 export const addToPrivacyCards = (dispatch: any, state: IState, creditCardId: string): void => {
 	const newCreditCardGroups = state.creditCardGroups.map((group: ICreditCardGroup) => {

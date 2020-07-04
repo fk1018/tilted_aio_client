@@ -1,7 +1,7 @@
 import React from 'react';
 import { Store } from '../Store';
 import { Grid, Button, Form, Segment, Header, List, Divider, Modal } from 'semantic-ui-react';
-import { IAddress } from '../interfaces';
+import { IAddress } from '../../../tilted_aio_shared/interfaces';
 import { submitCreateAddressForm, updateAddressForm } from '../actions';
 import RudList from '../components/RudList';
 

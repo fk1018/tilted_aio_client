@@ -1,5 +1,5 @@
-import { IState, IAction } from '../../interfaces';
-import { UPDATE_NAVIGATION_ACTIVE_INDEX } from '../../strings';
+import { IState, IAction } from '../../../../tilted_aio_shared/interfaces';
+import { UPDATE_NAVIGATION_ACTIVE_INDEX } from '../../../../tilted_aio_shared/strings';
 
 export const updateNavigationActiveIndex = (dispatch: any, state: IState, index: number): void => {
 	const dispatchObj: IAction<number> = {

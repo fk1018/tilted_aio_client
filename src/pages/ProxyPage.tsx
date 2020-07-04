@@ -7,7 +7,7 @@ import {
 	submitCreateProxiesForm,
 	updateProxiesForm
 } from '../actions';
-import { IProxyGroup, IProxiesForm, IProxy } from '../interfaces';
+import { IProxyGroup, IProxiesForm, IProxy } from '../../../tilted_aio_shared/interfaces';
 import RudList from '../components/RudList';
 import { deleteProxy } from '../actions/proxy/delete-proxy';
 import { deleteProxyGroup } from '../actions/proxy-group/delete-proxy-group';

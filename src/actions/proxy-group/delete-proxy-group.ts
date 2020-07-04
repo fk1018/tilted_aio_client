@@ -1,5 +1,5 @@
-import { IState, IProxy, IAction, IProxyGroup, IBrowser } from "../../interfaces";
-import { UPDATE_PROXIES, SAVE_DATA, UPDATE_PROXY_GROUPS, UPDATE_BROWSERS } from "../../strings";
+import { IState, IProxy, IAction, IProxyGroup, IBrowser } from "../../../../tilted_aio_shared/interfaces";
+import { UPDATE_PROXIES, SAVE_DATA, UPDATE_PROXY_GROUPS, UPDATE_BROWSERS } from "../../../../tilted_aio_shared/strings";
 import { ipcRenderer } from "electron";
 import { start } from "repl";
 

@@ -1,5 +1,5 @@
-import { IState, IProxiesForm, IProxy, IAction, IUpdateProxiesGroup } from '../../interfaces';
-import { CREATE_NEW_PROXIES, SAVE_DATA } from '../../strings';
+import { IState, IProxiesForm, IProxy, IAction, IUpdateProxiesGroup } from '../../../../tilted_aio_shared/interfaces';
+import { CREATE_NEW_PROXIES, SAVE_DATA } from '../../../../tilted_aio_shared/strings';
 import { ipcRenderer } from 'electron';
 import { addProxiesToProxiesGroup } from '../../actions';
 const uuidv4 = require('uuid/v4');

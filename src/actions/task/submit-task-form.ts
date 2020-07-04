@@ -1,11 +1,11 @@
-import { IState, IAction, ITask } from '../../interfaces';
-import { UPDATE_TASKS, SAVE_DATA } from '../../strings';
+import { IState, IAction, ITask } from '../../../../tilted_aio_shared/interfaces';
+import { UPDATE_TASKS, SAVE_DATA } from '../../../../tilted_aio_shared/strings';
 import { ipcRenderer } from 'electron';
 const uuidv4 = require('uuid/v4');
 export const submitTaskForm = (dispatch: any, state: IState, task: ITask): void => {
 	task.id = uuidv4();
 	task.name = `${task.name}#${state.tasks.length}`;
-	const newTasks: Array<ITask> = [ ...state.tasks, task ];
+	const newTasks: Array<ITask> = [...state.tasks, task];
 	const dispatchObj: IAction<any> = {
 		type: UPDATE_TASKS,
 		payload: newTasks

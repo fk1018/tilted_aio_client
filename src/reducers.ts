@@ -1,4 +1,4 @@
-import { IState, IAction } from './interfaces'
+import { IState, IAction } from '../../tilted_aio_shared/interfaces'
 import {
   UPDATE_NAVIGATION_ACTIVE_INDEX,
   CREATE_NEW_PROFILE,
@@ -26,7 +26,7 @@ import {
   UPDATE_TASK_FORM,
   UPDATE_TASKS,
   UPDATE_BROWSERS
-} from './strings'
+} from '../../tilted_aio_shared/strings'
 export function reducer(state: IState, action: IAction<any>): IState {
   switch (action.type) {
     case CREATE_NEW_ACCOUNT:

@@ -1,5 +1,5 @@
-import { CREATE_NEW_PROFILE, SAVE_DATA } from '../../strings';
-import { IState, IProfile, IAction } from '../../interfaces';
+import { CREATE_NEW_PROFILE, SAVE_DATA } from '../../../../tilted_aio_shared/strings';
+import { IState, IProfile, IAction } from '../../../../tilted_aio_shared/interfaces';
 import { ipcRenderer } from 'electron';
 const uuidv4 = require('uuid/v4');
 

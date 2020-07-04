@@ -1,6 +1,6 @@
-import { IState, IBrowser, IAction, IBrowserForm, IProxyGroup } from '../../interfaces'
+import { IState, IBrowser, IAction, IBrowserForm, IProxyGroup } from '../../../../tilted_aio_shared/interfaces'
 import { updateProxy } from '../../actions'
-import { CREATE_NEW_BROWSER, SAVE_DATA } from '../../strings'
+import { CREATE_NEW_BROWSER, SAVE_DATA } from '../../../../tilted_aio_shared/strings'
 import { ipcRenderer } from 'electron'
 const uuidv4 = require('uuid/v4')
 export const submitCreateBrowserForm = (dispatch: any, state: IState): void => {

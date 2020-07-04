@@ -1,5 +1,5 @@
-import { IAddress, IState, IAction } from '../../interfaces';
-import { CREATE_NEW_ADDRESS, SAVE_DATA } from '../../strings';
+import { IAddress, IState, IAction } from '../../../../tilted_aio_shared/interfaces';
+import { CREATE_NEW_ADDRESS, SAVE_DATA } from '../../../../tilted_aio_shared/strings';
 import { ipcRenderer } from 'electron';
 import { addToPrivacyAddresses } from './add-to-privacy-addresses';
 const uuidv4 = require('uuid/v4');

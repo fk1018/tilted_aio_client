@@ -1,5 +1,5 @@
-import { IState, IProxyGroupForm, IProxyGroup, IAction } from '../../interfaces';
-import { CREATE_NEW_PROXY_GROUP, SAVE_DATA } from '../../strings';
+import { IState, IProxyGroupForm, IProxyGroup, IAction } from '../../../../tilted_aio_shared/interfaces';
+import { CREATE_NEW_PROXY_GROUP, SAVE_DATA } from '../../../../tilted_aio_shared/strings';
 import { ipcRenderer } from 'electron';
 const uuidv4 = require('uuid/v4');
 export const submitCreateProxyGroupForm = (dispatch: any, state: IState, proxyGroupForm: IProxyGroupForm): void => {

@@ -1,5 +1,5 @@
-import { IState, IAction } from '../../interfaces';
-import { UPDATE_PROXY_GROUPS_FORM } from '../../strings';
+import { IState, IAction } from '../../../../tilted_aio_shared/interfaces';
+import { UPDATE_PROXY_GROUPS_FORM } from '../../../../tilted_aio_shared/strings';
 
 export const updateProxyGroupForm = (dispatch: any, state: IState, keyValuePair: any): void => {
 	const dispatchObj: IAction<any> = {

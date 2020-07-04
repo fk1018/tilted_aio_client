@@ -1,6 +1,6 @@
-import { IAddressGroup, IState, IAction } from '../../interfaces';
+import { IAddressGroup, IState, IAction } from '../../../../tilted_aio_shared/interfaces';
 import { ipcRenderer } from 'electron';
-import { SAVE_DATA, UPDATE_ADDRESS_GROUPS } from '../../strings';
+import { SAVE_DATA, UPDATE_ADDRESS_GROUPS } from '../../../../tilted_aio_shared/strings';
 
 export const addToPrivacyAddresses = (dispatch: any, state: IState, addressId: string): void => {
 	const newPrivacyGroups: Array<IAddressGroup> = state.addressGroups.map((pg: IAddressGroup) => {

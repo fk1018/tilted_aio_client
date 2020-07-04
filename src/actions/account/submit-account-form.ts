@@ -1,5 +1,5 @@
-import { IAccount, IState, IAction } from '../../interfaces';
-import { CREATE_NEW_ACCOUNT, SAVE_DATA } from '../../strings';
+import { IAccount, IState, IAction } from '../../../../tilted_aio_shared/interfaces';
+import { CREATE_NEW_ACCOUNT, SAVE_DATA } from '../../../../tilted_aio_shared/strings';
 import { ipcRenderer } from 'electron';
 const uuidv4 = require('uuid/v4');
 export const submitCreateAccountForm = (dispatch: any, state: IState, account: IAccount): void => {

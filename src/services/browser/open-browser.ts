@@ -1,5 +1,5 @@
-import { IAction } from '../../interfaces';
-import { OPEN_BROWSER } from '../../strings';
+import { IAction } from '../../../../tilted_aio_shared/interfaces';
+import { OPEN_BROWSER } from '../../../../tilted_aio_shared/strings';
 import { ipcRenderer } from 'electron';
 
 export const openBrowser = (browserId: string) => {

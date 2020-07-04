@@ -1,5 +1,5 @@
-import { IState, IAction, ICreditCard } from '../../interfaces';
-import { CREATE_NEW_CREDIT_CARD, SAVE_DATA } from '../../strings';
+import { IState, IAction, ICreditCard } from '../../../../tilted_aio_shared/interfaces';
+import { CREATE_NEW_CREDIT_CARD, SAVE_DATA } from '../../../../tilted_aio_shared/strings';
 import { ipcRenderer } from 'electron';
 import { addToPrivacyCards } from './add-to-privacy-cards';
 const uuidv4 = require('uuid/v4');
