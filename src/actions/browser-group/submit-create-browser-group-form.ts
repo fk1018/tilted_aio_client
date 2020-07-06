@@ -1,5 +1,5 @@
-import { IState, IBrowserGroupForm, IBrowserGroup, IAction } from '../../../../tilted_aio_shared/interfaces';
-import { CREATE_NEW_BROWSER_GROUP, SAVE_DATA } from '../../../../tilted_aio_shared/strings';
+import { IState, IBrowserGroupForm, IBrowserGroup, IAction } from 'tilted_aio_shared';
+import { CREATE_NEW_BROWSER_GROUP, SAVE_DATA } from 'tilted_aio_shared';
 import { ipcRenderer } from 'electron';
 const uuidv4 = require('uuid/v4');
 export const submitCreateBrowserGroupForm = (

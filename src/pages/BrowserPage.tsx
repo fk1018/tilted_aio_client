@@ -7,7 +7,7 @@ import {
 	submitCreateBrowserGroupForm,
 	updateBrowserGroupForm
 } from '../actions';
-import { IProxyGroup, IBrowser, IBrowserForm, IBrowserGroup } from '../../../tilted_aio_shared/interfaces';
+import { IProxyGroup, IBrowser, IBrowserForm, IBrowserGroup } from 'tilted_aio_shared';
 import { openAllBrowsers, openBrowser, openBrowserGroup } from '../services';
 import RudList from '../components/RudList';
 import { deleteBrowser } from '../actions/browser/delete-browser';

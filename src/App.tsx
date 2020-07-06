@@ -10,7 +10,7 @@ import TaskPage from './pages/TaskPage';
 import NavBar from './components/NavBar';
 import { Container, Grid } from 'semantic-ui-react';
 import { ipcRenderer } from 'electron';
-import { LOAD_INITIAL_DATA } from '../../tilted_aio_shared/strings';
+import { LOAD_INITIAL_DATA } from 'tilted_aio_shared';
 import { loadInitialData } from './actions';
 import { Store } from './Store';
 

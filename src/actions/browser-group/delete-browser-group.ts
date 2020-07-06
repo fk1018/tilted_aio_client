@@ -1,5 +1,5 @@
-import { IState, IBrowser, IAction, IBrowserGroup, IProxy } from "../../../../tilted_aio_shared/interfaces";
-import { UPDATE_BROWSERS, SAVE_DATA, UPDATE_BROWSER_GROUPS, UPDATE_PROXIES } from "../../../../tilted_aio_shared/strings";
+import { IState, IBrowser, IAction, IBrowserGroup, IProxy } from "tilted_aio_shared";
+import { UPDATE_BROWSERS, SAVE_DATA, UPDATE_BROWSER_GROUPS, UPDATE_PROXIES } from "tilted_aio_shared";
 import { ipcRenderer } from "electron";
 
 export const deleteBrowserGroup = (dispatch: any, state: IState, browserGroupId: string): void => {

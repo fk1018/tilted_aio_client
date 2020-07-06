@@ -1,5 +1,5 @@
-import { SAVE_DATA, UPDATE_BROWSERS, UPDATE_PROXIES } from '../../../../tilted_aio_shared/strings';
-import { IState, IAction, IProxy, IBrowser, } from '../../../../tilted_aio_shared/interfaces';
+import { SAVE_DATA, UPDATE_BROWSERS, UPDATE_PROXIES } from 'tilted_aio_shared';
+import { IState, IAction, IProxy, IBrowser, } from 'tilted_aio_shared';
 import { ipcRenderer } from 'electron';
 
 

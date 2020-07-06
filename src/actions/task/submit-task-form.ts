@@ -1,5 +1,5 @@
-import { IState, IAction, ITask } from '../../../../tilted_aio_shared/interfaces';
-import { UPDATE_TASKS, SAVE_DATA } from '../../../../tilted_aio_shared/strings';
+import { IState, IAction, ITask } from 'tilted_aio_shared';
+import { UPDATE_TASKS, SAVE_DATA } from 'tilted_aio_shared';
 import { ipcRenderer } from 'electron';
 const uuidv4 = require('uuid/v4');
 export const submitTaskForm = (dispatch: any, state: IState, task: ITask): void => {

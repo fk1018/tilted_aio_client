@@ -1,7 +1,7 @@
 import React from 'react';
 import { Store } from '../Store';
 import { Grid, Button, Form, Segment, Header, List, Modal } from 'semantic-ui-react';
-import { IAccount, ISite } from '../../../tilted_aio_shared/interfaces';
+import { IAccount, ISite } from 'tilted_aio_shared';
 import { submitCreateAccountForm, updateAccountForm } from '../actions';
 import RudList from '../components/RudList';
 

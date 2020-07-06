@@ -1,5 +1,5 @@
 import React from 'react';
-import { IState } from '../../tilted_aio_shared/interfaces';
+import { IState } from 'tilted_aio_shared';
 import { reducer } from './reducers';
 
 const initialState: IState = {

@@ -11,7 +11,7 @@ import {
 	IAddress,
 	ICreditCard,
 	IProxyGroup
-} from '../../../tilted_aio_shared/interfaces';
+} from 'tilted_aio_shared';
 import { updateTaskForm, submitTaskForm } from '../actions';
 import RudList from '../components/RudList';
 
